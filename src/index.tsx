@@ -40,7 +40,8 @@ width: '100%',
 }
 ],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
@@ -55,7 +56,25 @@ width: '100%',
 
           args,
 
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[
+{
+backgroundColor: 'white',
+justifyContent: 'center',
+minHeight: 22,
+width: "100%",
+
+}],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
