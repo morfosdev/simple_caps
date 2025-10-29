@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = "a0-tela-azul-clara";
+          const currRoute = "home";
 
           let args: any = [];
 
@@ -27,7 +27,7 @@
             
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:home,
+          pathScreen:"home",
 
           styles:[
  {
