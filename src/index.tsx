@@ -82,11 +82,11 @@ width: '100%',
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            { color: '#fff', fontSize: 12, }
           ],
 
           children: [
-            "Escreva..."
+            "Morfos"
           ],
 
           args,
