@@ -75,7 +75,23 @@ width: '100%',
 }
 ],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
           arrProps: [
             {}
           ],
