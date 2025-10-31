@@ -51,7 +51,7 @@ width: '100%',
           ],
 
           children: [
-            "Carlos 1"
+            "Carlos 2"
           ],
 
           args,
@@ -139,7 +139,7 @@ width: '100%',
           ],
 
           children: [
-            "Morfos 2"
+            "Morfos"
           ],
 
           args,
